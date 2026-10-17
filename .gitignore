@@ -1,0 +1,20 @@
+# 敏感信息：任何本地配置与密钥都不进仓库
+mcp.json
+.env
+.env.*
+
+# 百度网盘同步临时文件
+*.baiduyun.*
+*.baiduyun
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# 本地实测产物（可能含账号数据，绝不公开）
+probe_*.json
+probe_*.txt
+_mcd_official/
